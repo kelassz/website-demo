@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blend & Bloom | Fresh Smoothies</title>
+  <meta name="description" content="Fresh, fruity smoothies made with love. Find your new favorite blend at Blend & Bloom.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">blend<span>&</span>bloom.</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Our Menu</a>
+      <a href="#about">Our Story</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#menu" class="cart-link">
+      🛍️ Cart <span id="cart-count">0</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <span class="eyebrow">100% FRESH · 100% HAPPY</span>
+        <h1>A little sip<br>of <span>sunshine.</span></h1>
+        <p>
+          Fresh fruits, feel-good ingredients, and a whole lot
+          of love in every cup. Your daily dose of delicious starts here.
+        </p>
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary">Explore Menu ↗</a>
+          <a href="#about" class="btn btn-secondary">Our Story</a>
+        </div>
+        <div class="hero-note">
+          <span>🍓</span>
+          <p>Made fresh daily, just for you.</p>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-circle"></div>
+        <img
+          src="uwp5096211.png"
+          alt="Fresh colorful smoothie with fruit"
+          class="hero-image">
+        <div class="floating-tag">Freshness<br>in every sip ✨</div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div>🍊 <span>Real Fruit</span></div>
+      <div>🌱 <span>Fresh Ingredients</span></div>
+      <div>💚 <span>Made With Love</span></div>
+      <div>🥭 <span>Tropical Goodness</span></div>
+    </section>
+
+    <section class="menu section" id="menu">
+      <div class="section-heading">
+        <span class="eyebrow">THE GOOD STUFF</span>
+        <h2>Find your <span>happy blend.</span></h2>
+        <p>Made fresh. Blended smooth. Gone too soon.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=650&q=80"
+               alt="Strawberry banana smoothie">
+          <div class="product-info">
+            <span class="product-tag pink">BESTSELLER</span>
+            <h3>Berry Blush</h3>
+            <p>Strawberries, banana & creamy yogurt.</p>
+            <div class="product-bottom">
+              <strong>RM 12.00</strong>
+              <button class="add-btn" data-name="Berry Blush" data-price="12">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?auto=format&fit=crop&w=650&q=80"
+               alt="Fresh green smoothie">
+          <div class="product-info">
+            <span class="product-tag green">FEEL GOOD</span>
+            <h3>Green Goddess</h3>
+            <p>Avocado, spinach, banana & apple.</p>
+            <div class="product-bottom">
+              <strong>RM 14.00</strong>
+              <button class="add-btn" data-name="Green Goddess" data-price="14">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=650&q=80"
+               alt="Mango tropical smoothie">
+          <div class="product-info">
+            <span class="product-tag yellow">TROPICAL</span>
+            <h3>Mango Tango</h3>
+            <p>Sweet mango, pineapple & coconut milk.</p>
+            <div class="product-bottom">
+              <strong>RM 13.00</strong>
+              <button class="add-btn" data-name="Mango Tango" data-price="13">+</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="cart-summary" id="cart-summary" aria-live="polite">
+        Your cart is empty. Pick a happy blend! 🥤
+      </div>
+      <button class="btn btn-primary checkout-btn" id="checkout-btn">
+        Order Summary →
+      </button>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-visual">
+        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=850&q=85"
+             alt="Fresh fruits and healthy ingredients">
+        <div class="about-sticker">GOOD<br>MOOD<br>FOOD ♡</div>
+      </div>
+      <div class="about-text">
+        <span class="eyebrow">A FRESH KIND OF HAPPY</span>
+        <h2>Good things<br>grow <span>naturally.</span></h2>
+        <p>
+          We believe feeling good can taste amazing. That's why we
+          blend fresh fruit and feel-good ingredients into smoothies
+          that brighten your day, one sip at a time.
+        </p>
+        <p>
+          No complicated stuff. Just delicious blends, happy vibes,
+          and a little sunshine in every cup.
+        </p>
+        <a href="#menu" class="btn btn-primary">Meet Your New Favorite ↗</a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-heading">
+        <span class="eyebrow">SAY HELLO</span>
+        <h2>Let's <span>blend</span> something good.</h2>
+        <p>Questions, feedback, or just want to say hi? We'd love to hear from you.</p>
+      </div>
+      <form id="contact-form" class="contact-form">
+        <input type="text" id="customer-name" placeholder="Your name" required>
+        <input type="email" id="customer-email" placeholder="Your email" required>
+        <textarea id="customer-message" placeholder="Your message..." rows="4" required></textarea>
+        <button class="btn btn-primary" type="submit">Send Message ↗</button>
+        <p id="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">blend<span>&</span>bloom.</a>
+    <p>Fresh blends. Happy days. © <span id="year"></span></p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
